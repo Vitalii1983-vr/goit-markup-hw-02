@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+    color: #2a2a2a;
+    background-color: #fafafa;
+    Family: Roboto Weight: Regular Size: 16px Line Height: 24px Letter Spacing: 2%
+}
+
+.head {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+}
+}
+.hero {
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+#slogan {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.benefits {
+    width: 1128px;
+    height: 104px;
+}
+
+.benefits-desc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+}
+
+.portfolio {
+    width: 1128px;
+    height: 1000px;
+}
+
+
+.foother {
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+}
