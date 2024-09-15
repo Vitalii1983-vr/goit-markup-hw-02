@@ -5,10 +5,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Main Page</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;700&display=swap"
+    rel="stylesheet" />
+
   <!-- нормалізатор -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
   <!-- мої стилі -->
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
@@ -17,13 +27,16 @@
   <!-- #region Header -->
   <header class="header">
     <nav class="header-nav">
-      <p><a href="index.html" aria-label="Link to home page">WEB</a>STUDIO</p>
+      <p>
+        <a class="header-logo" href="index.html">WEB<span
+            class="logo-light">STUDIO</span></a>
+      </p>
       <ul class="header-nav-list">
         <li class="header-nav-item">
-          <a class="header-nav-link" href="#studio" id="link-1">Studio</a>
+          <a class="header-nav-link" href="#studio">Studio</a>
         </li>
         <li class="header-nav-item">
-          <a class="header-nav-link" href="#portfolio" id="link-2">Portfolio</a>
+          <a class="header-nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="header-nav-item">
           <a class="header-nav-link" href="#contacts">Contacts</a>
@@ -34,10 +47,10 @@
     <address class="address">
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="address-mail"  href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <a class="address-phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </address>
@@ -48,8 +61,8 @@
   <main>
     <!-- #region Hero -->
     <section class="hero">
-      <h1 id="slogan">Effective Solutions for Your Business</h1>
-      <button class="button" type="button">Order Service</button>
+      <h1 class="hero-title">Effective Solutions for Your Business</h1>
+      <button class="btn" type="button">Order Service</button>
     </section>
 
     <!-- #endregion Hero -->
@@ -127,6 +140,7 @@
 
     <!-- #region Our Portfolio -->
     <section class="portfolio">
+      <h2>Our Portfolio</h2>
       <ul>
         <li>
           <img src="./images/our-portfolio/banking-app.jpg"
@@ -170,7 +184,10 @@
 
   <!-- #region Footer -->
   <footer class="footer">
-    <p><a href="index.html" aria-label="Link to home page">WEB</a>STUDIO</p>
+    <p>
+      <a class="footer-logo" href="index.html" aria-label="Link to home page">WEB<span
+          class="logo-dark">STUDIO</span></a>
+    </p>
     <p>
       Increase the flow of customers and sales for your business with digital
       marketing & growth solutions.
