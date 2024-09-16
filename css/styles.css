@@ -4,7 +4,6 @@ body {
   font-size: 16px;
   color: rgb(67, 68, 85);
   background-color: rgb(255, 255, 255);
-  margin: 0;
 }
 
 /* Header Styles */
@@ -18,18 +17,12 @@ body {
   color: #4d5ae5;
 }
 
-.logo-span-dark {
+.span-logo-dark {
   color: #2e2f42;
 }
 
 .header-nav-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-item {
-  display: inline;
 }
 
 .nav-link {
@@ -71,10 +64,12 @@ body {
 
 .hero-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize; 
+  color: #2e2f42;
 }
 
 .hero-btn {
@@ -101,7 +96,6 @@ body {
 
 .benefits-list {
   list-style: none;
-  margin: 0;
 }
 
 .benefits-item {
@@ -149,11 +143,11 @@ body {
 }
 
 .team-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 5px;
   color: #2e2f42;
 }
 
@@ -177,13 +171,25 @@ body {
   text-align: center;
 }
 
+.section-portfolio-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.02em;
-  margin-top: 10px;
+  color: #2e2f42;
 }
+
 
 .portfolio-desc {
   font-size: 16px;
@@ -208,7 +214,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-span-light {
+.span-logo-light {
   color: #f4f4fd;
 }
 
