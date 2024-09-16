@@ -82,13 +82,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF !important;
-  color: #ffffff !important;
+  background-color: #404BBF;
 }
 
 /* Benefits Section */
