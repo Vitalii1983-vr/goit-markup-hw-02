@@ -20,6 +20,7 @@ body {
 .span-logo-dark {
   color: #2e2f42;
 }
+}
 
 .header-nav-list {
   list-style: none;
@@ -86,8 +87,8 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF;
-  color: #ffffff;
+  background-color: #404BBF !important;
+  color: #ffffff !important;
 }
 
 /* Benefits Section */
